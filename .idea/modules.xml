@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Eksamens-ving.iml" filepath="$PROJECT_DIR$/.idea/Eksamens-ving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H2022.1/H2020.1.iml" filepath="$PROJECT_DIR$/H2022.1/H2020.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H2020.2/H2020.2.iml" filepath="$PROJECT_DIR$/H2020.2/H2020.2.iml" />
+    </modules>
+  </component>
+</project>
