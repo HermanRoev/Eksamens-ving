@@ -1,6 +1,4 @@
 import javax.swing.*;
-import java.util.List;
-
 
 class Person {
     private String navn;
@@ -26,7 +24,7 @@ class Pasient extends Person {
 
     }
     public String toString() {
-        return /*Bruk toString som eksisterer i Person*/ "Navn: " + navn + "\nAlder: " + alder + "\nPersonnummer: " + personnummer + "\nDiagnose: " + diagnose;
+        return super.toString() + "\nDiagnose: " + diagnose;
     }
 }
 class Lege extends Person{
@@ -35,18 +33,18 @@ class Lege extends Person{
         super(navn, personnummer, alder);
     }
     public String toString() {
-        return /*Bruk toString som finnes i Paisent til å skrive ut info*/"Navn: " + navn + "Alder: " + alder + "Personnummer:" + personnummer;
+        return super.toString();
     }
 }
 public class Main {
     public static void main(String[] args) {
-        Pasient Roger = new Pasient("Roger", "12345678910", "Kreft", 65);
-        Pasient Per = new Pasient("Per", "10987654321", "Brudd", 21);
+        Pasient roger = new Pasient("Roger", "12345678910", "Kreft", 65);
+        Pasient per = new Pasient("Per", "10987654321", "Brudd", 21);
 
         Lege Johannesen = new Lege("Johannesen", "11223344556", 47);
-        Johannesen.pasientListe[0] = Roger;
-        Johannesen.pasientListe[1] = Per;
+        Johannesen.pasientListe[0] = roger;
+        Johannesen.pasientListe[1] = per;
 
-        <Skriv ut alle dataene på System.out.print ved hjelp av lege-objektet>
+        /*<Skriv ut alle dataene på System.out.print ved hjelp av lege-objektet>*/
     }
 }
