@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        for (int i = 1; i < 26; i++) {
-            System.out.println(i);
+        String en = "hei";
+        try {
+            int to = Integer.parseInt(en);
         }
-        int i = 1;
-        while (i < 26) {
-            System.out.println(i);
-            i++;
+        catch (Exception e) {
+            soner = 0;
         }
     }
 }

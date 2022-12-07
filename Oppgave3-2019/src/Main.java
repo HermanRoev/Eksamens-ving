@@ -8,8 +8,7 @@ public class Main {
         liste.add(harrypotter);
         liste.add(narnia);
         for (Bok i : liste) {
-            String print = i.toString();
-            System.out.println(print);
+            System.out.println(i.toString());
         }
     }
 }
