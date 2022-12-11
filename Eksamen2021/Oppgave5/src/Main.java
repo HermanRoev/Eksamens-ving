@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 
 public class TempController {
     public ArrayList<Double> temperaturer = new ArrayList<>() ;
@@ -33,3 +33,5 @@ public class TempController {
         }
     }
 }
+
+ */

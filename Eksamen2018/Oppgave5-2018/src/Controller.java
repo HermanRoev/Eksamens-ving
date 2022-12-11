@@ -1,4 +1,4 @@
-import javafx.event.ActionEvent;
+/*import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 
@@ -41,7 +41,7 @@ public class FXMLDocumentController {
 
     @FXML
     public void regLoddsalg(ActionEvent	event) {
-        Lodd etlodd = new Lodd;
+        Lodd etlodd = new Lodd();
         etlodd.navn = txtNavn.getText();
         etlodd.telefonnr = txtTelefonnr.getText();
         if (!lotteri.kjøpLodd(etlodd)) {
@@ -60,3 +60,5 @@ public class FXMLDocumentController {
         lotteri = new Lotteri();
     }
 }
+
+ */
