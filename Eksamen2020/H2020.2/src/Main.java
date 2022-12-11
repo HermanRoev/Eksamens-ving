@@ -39,9 +39,9 @@ public class Main {
         Pasient roger = new Pasient("Roger", "12345678910", "Kreft", 65);
         Pasient per = new Pasient("Per", "10987654321", "Brudd", 21);
 
-        Lege Johannesen = new Lege("Johannesen", "11223344556", 47);
-        Johannesen.pasientListe[0] = roger;
-        Johannesen.pasientListe[1] = per;
+        Lege johannesen = new Lege("Johannesen", "11223344556", 47);
+        johannesen.pasientListe[0] = roger;
+        johannesen.pasientListe[1] = per;
 
         /*<Skriv ut alle dataene på System.out.print ved hjelp av lege-objektet>*/
     }
