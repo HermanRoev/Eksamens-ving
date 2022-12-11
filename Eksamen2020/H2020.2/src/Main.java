@@ -1,5 +1,3 @@
-import javax.swing.*;
-
 class Person {
     private String navn;
     private String personnummer;
